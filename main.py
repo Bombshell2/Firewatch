@@ -41,7 +41,7 @@ def search():
             else:
                 #wow! new feature begins here! get users online friends, then if matches id generate quick server join link.
                 req = requests.get(
-                    url="https://friends.roblox.com/v1/users/" + cookie[synced][2] + "/friends/online",
+                    url="https://friends.roblox.com/v1/users/" + str(cookie[synced][2]) + "/friends/online",
                     cookies={
                         ".ROBLOSECURITY": cookie[synced][1]
                     }
