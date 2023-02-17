@@ -37,4 +37,4 @@ async def on_ready():
     print('Firewatch V2.1 by Bombshell2#8591 has loaded.')
     test.start()
 
-client.run('OTk0MzYxNjI0NTQwNDc5NjY4.GUk4_Q.c21eFiAzCvFlyNW7Ttjjj6oZUxEyrwfUGCq38c')
+client.run('')
