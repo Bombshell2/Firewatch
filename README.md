@@ -15,7 +15,7 @@ description - Discription of embeds.
 
 color - Color of embed. Stored as the hexedecimal color value, converted to an integer value.
 
-UserIds - 2d array that stores userId, .ROBLOSECURITY token, and userId of the user who has the token. In format of `[[userId, ".ROBLOSECURITY", ROBLOSECURITYuserId], [userId2, ".ROBLOSECURITY2", ROBLOSECURITYuserId2]]`
+UserIds - 2d array that stores userId, .ROBLOSECURITY token, and userId of the user who has the token. For accounts not using ROBLOSECURITY tracking, make the ROBLOSECURITY token blank and the token userId 0. Example: `[[userId, ".ROBLOSECURITY", ROBLOSECURITYuserId], [userId2, "", 0]]`
 
 token - Discord bot token. Look up how to get this one.
 
